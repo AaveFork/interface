@@ -1,7 +1,6 @@
 import { ChainId } from '@aave/contract-helpers';
 import { BigNumberValue, USD_DECIMALS, valueToBigNumber } from '@aave/math-utils';
-
-import { CustomMarket } from './marketsAndNetworksConfig';
+import { CustomMarket } from 'src/ui-config/marketsConfig';
 
 export function hexToAscii(_hex: string): string {
   const hex = _hex.toString();
@@ -83,7 +82,7 @@ export const showSuperFestTooltip = (symbol: string, currentMarket: string, side
 
   return (
     superFestRewardsEnabled &&
-    currentMarket === CustomMarket.proto_base_v3 &&
+    currentMarket === CustomMarket.proto_blast_sepolia_v3 &&
     side === Side.SUPPLY &&
     (symbol == 'ETH' || symbol == 'WETH' || symbol == 'wstETH')
   );

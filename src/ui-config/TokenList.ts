@@ -12714,8 +12714,7 @@ export const TOKEN_LIST: TokenList = {
       symbol: 'WETH',
       decimals: 18,
       chainId: 168587773,
-      logoURI:
-        'https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332',
+      logoURI: 'https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332',
     },
   ],
 };
