@@ -101,7 +101,13 @@ export const marketsData: {
     v3: true,
     permitDisabled: true,
     enabledFeatures: {
-      faucet: true,
+      staking: false,
+      liquiditySwap: true,
+      collateralRepay: true,
+      incentives: true,
+      withdrawAndSwitch: true,
+      debtSwitch: false,
+      switch: true,
     },
     disableCharts: true,
     addresses: {
