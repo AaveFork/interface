@@ -12708,6 +12708,15 @@ export const TOKEN_LIST: TokenList = {
       logoURI:
         'https://assets.coingecko.com/coins/images/30663/standard/gho-token-logo.png?1720517092',
     },
+    {
+      name: 'Wrapped Ether',
+      address: '0x4200000000000000000000000000000000000023',
+      symbol: 'WETH',
+      decimals: 18,
+      chainId: 168587773,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332',
+    },
   ],
 };
 
