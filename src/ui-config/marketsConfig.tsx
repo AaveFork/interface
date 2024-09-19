@@ -102,7 +102,6 @@ export const marketsData: {
     permitDisabled: true,
     enabledFeatures: {
       faucet: true,
-      liquiditySwap: true,
     },
     disableCharts: true,
     addresses: {
