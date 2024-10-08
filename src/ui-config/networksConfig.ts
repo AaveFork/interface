@@ -73,7 +73,7 @@ export const networkConfigs: Record<string, BaseNetworkConfig> = {
   },
   [168587773]: {
     name: 'Blast Sepolia',
-    publicJsonRPCUrl: ['https://sepolia.blast.io', 'https://blast-sepolia.drpc.org'],
+    publicJsonRPCUrl: ['https://sepolia.blast.io'],
     publicJsonRPCWSUrl: 'wss://blast-sepolia.drpc.org',
     baseAssetSymbol: 'ETH',
     wrappedBaseAssetSymbol: 'WETH',
